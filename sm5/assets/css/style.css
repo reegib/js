@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+.box_list{
+	background-color: rgb(255, 127, 217);
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.box{
+	height: 100px;
+	width: 100px;
+	margin: 10px;
+	background-color: black;
+	
+}
+
