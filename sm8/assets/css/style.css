@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+/* Кнопка */
+.btn-modal {
+    cursor: pointer;
+    padding: 1rem 3rem;
+    color: #fff;
+    text-decoration: none;
+    background-color: #83bec5;
+    transition: all 0.3s ease-out;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.btn-modal:hover {
+    background-color: #527c82;
+}
+
+  /* Модальное окно */
+#modal-block { 
+    position: fixed;
+    top:0;
+    left:-100vw;
+    width:100vw;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    z-index: 9;
+
+}
+#modal-block:target{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+
+}
+
+  /* Заголовкии текст */
+#modal-block h3{
+    margin: 20px 0;
+    font-size: 1.7em;
+}
+#modal-block p{
+    width: 50%;
+    text-align:justify;
+}
+
+  /* Кнопка закрыть */
+.close-block{
+    display: flex;
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    padding: .5em;
+    background-color: #fff;
+    color: #527c82;
+    text-decoration: none;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.mouseup{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+}
+.mousedown{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+}
