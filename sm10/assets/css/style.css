@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+		text-decoration: none;
+}
+a{
+    display: none;
+}
+
+input{
+	padding: 10px 40px;
+	border-radius: 20px;
+	background-color: bisque;
+	border: 1px solid yellow;
+}
+
+.submit{
+	padding: 10px 90px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
